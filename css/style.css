@@ -1,3 +1,15 @@
+html {
+  background-image: url(https://www.hortongroup.com/hs-fs/hubfs/Horton_Group_Portfolio/Featured/HG-Work-Portfolio-2017-MNPS-Background.png?width=700&height=365&name=HG-Work-Portfolio-2017-MNPS-Background.png);
+  background-color: #cccccc;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
 
 body {
   height: 100%;

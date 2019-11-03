@@ -45,6 +45,19 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
   float: left;
   background-color: #4aaaa5;
+  margin-left: 35px;
+  margin-right: 35px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 20px;
+  box-shadow: #666666 0 0 4px;
+  border-radius: 3px;
+  position: center;
+}
+#contact-form {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #4aaaa5;
   margin-left: 32px;
   color: #ffffff;
   margin-bottom: 0px;
@@ -52,13 +65,37 @@ header {
   padding: 20px;
   box-shadow: #666666 0 0 4px;
   border-radius: 3px;
+  float: center;
 }
-
 header::after {
   content: "";
   display: table;
   clear: both;
 }
+.fa-facebook {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4aaaa5;
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+  border-right: 1px solid #cccccc;
+}
+
+.fa-linkledin {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4aaaa5;
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+  border-right: 1px solid #cccccc;
+}
+
+
+
+ 
+
+
+
 
 nav {
   float: right;
@@ -126,6 +163,7 @@ img:hover {
 
 #wrapper {
   min-height: 100%;
+  background-color: #4aaaa5;
 }
 
 #main {
@@ -153,11 +191,17 @@ h2 {
   border-bottom: 2px solid #cccccc;
 }
 #contact-form ul {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #contact-form li {
   margin-bottom: 10px;
+}
+
+#contact-form {
+  position: center;
+  margin-left: 1400px;
+}
 
 
 .about {
@@ -166,6 +210,8 @@ h2 {
   line-height: 45px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 15px;
+  margin-bottom: 500px;
+  float: center;
 }
 
 footer {
@@ -201,9 +247,7 @@ a:active  {
  }
 
 @media (max-width: 980px) {
- .container {width: 70%;} 
-  #main {width: 30%;}
-  footer { width: 100%;}
+  html {width:50%;}
   
 }
 
